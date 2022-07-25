@@ -1,43 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Template Project</title>
-  <!-- <link rel="stylesheet" href="./css/normalize.css"> -->
-  <!-- <link rel="stylesheet" href="./css/main.css"> -->
-  <link rel="stylesheet" href="./css/main.min.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="./css/main.min.css"> -->
+    <!-- <link rel="stylesheet" href="./css/normalize.css"> -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Mobile First</title>
+  </head>
 
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <div class="site-header__inner">
+          <a class="logo" href="./mobile.html">
+            <img
+              class="logo__img"
+              src="./images/logo.svg"
+              width="163"
+              height="18"
+              alt="Coffeeroaster's logo"
+            />
+          </a>
 
+          <button class="site-header__menu-btn"></button>
+          <nav class="sitenav">
+            <ul class="sitenav__list">
+              <li class="sitenav__item">
+                <a class="sitenav__link" href="#">Home</a>
+              </li>
+              <li class="sitenav__item">
+                <a class="sitenav__link" href="#">About Us</a>
+              </li>
+              <li class="sitenav__item">
+                <a class="sitenav__link" href="#">Create Your Plan</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
 
-  <!-- SITE HEADER START -->
-
-  <header class="site-header">
-
-  </header>
-
-  <!-- SITE HEADER END -->
-
-
-  <!-- SITE MAIN START -->
-  <main class="site-main">
-
-    <section class="hero">
-      
-    </section>
-
-  </main>
-
-  <!-- SITE MAIN END -->
-
-  <!-- SITE FOOTER START -->
-  <footer class="site-footer">
-
-  </footer>
-  <!-- SITE FOOTER END -->
-
-</body>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero__bg">
+            <div class="hero__box">
+              <div class="hero__big-text-box">
+                <h1 class="hero__big-text">Great coffee made simple.</h1>
+              </div>
+              <div class="hero__mini-text-box">
+                <p class="hero__mini-text">
+                  Start your mornings with the world’s best coffees. Try our
+                  expertly curated artisan coffees from our best roasters
+                  delivered directly to your door, at your schedule.
+                </p>
+              </div>
+              <div class="hero__hreft-box">
+                <a class="hero__hreft" href="#">Create your plan</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
