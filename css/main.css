@@ -157,6 +157,7 @@ body {
   background-image: url("/images/mobil__hero-img.png");
   background-repeat: no-repeat;
   background-size: cover;
+  border-radius: 6px;
 }
 .hero__box {
   width: 100%;
